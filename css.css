@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{font-family: "LXGW WenKai Mono TC", monospace;}
+
+.header{
+    display: flex;
+    background-color:blanchedalmond;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    }
+.header img{width: 100px;
+margin: 15px;}
+
+.menu{
+    width:500px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    padding-right: 30px;
+  }
+  .menu li{
+    width: 100px;
+    text-align:center;
+    margin-top: 20px;
+    font-size: 20px;
+    
+  }
+  .menu li a{
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:#660000;
+    text-decoration: none;    
+      }
+  
+  .menu li a:hover{
+    border: #660000 solid;
+    border-radius: 20px;
+    text-shadow: rgb(255, 98, 0) 1px 0 10px;
+  }
+
+  .welcome-page img{
+    position: relative;
+    width: 100%;
+      }  
+  .welcome{
+    position: absolute;
+    right: 33%;
+    top: 150px;
+    z-index:5;
+    width: 40%;    
+    border: #660000 solid;
+    line-height: 50px;
+    text-align: center;
+  }
+  
+  .welcome h2{
+    font-size: 25px;
+    }
+   .welcome h3{
+        font-size: 20px;
+            }
+    .welcome p{
+    font-size: 15px;
+   }
+   
+.down{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 50%;
+    top: 500px;
+    z-index:5;
+}
+.down a{
+    text-align: center;
+    text-decoration: none;  
+    border-radius: 25px; 
+    padding: 10px;
+    background-color: antiquewhite;
+        }
+.down a:hover{
+    text-shadow: rgb(255, 98, 0) 1px 0 10px;
+    background-color: #660000d6;
+    color: bisque;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 100px;
+  }
+
+.field{margin-bottom: 80px;}
+
+.field img{
+  width: 400px;
+}
+
+.field ul{
+  display: flex;
+}
+
+.field li{
+  font-size: 16px;
+  margin-right: 16px;
+  background: #F1F1F1;
+  border-radius: 16px;
+  Padding:4px 12px 4px 12px;
+}
+.field h2
+{ font-weight: 700;
+  font-size: 28px;
+  margin-top: 16px;
+  color: #3B3B3B;
+  margin-bottom: 8px;
+  Padding-left:16px;
+}
+.field h3{
+  Padding-left:16px;
+  margin-bottom: 24px;
+  color: #919191;
+}
